@@ -1,15 +1,20 @@
-import './App.css';
-import Head  from './components/Head';
-import HomePage from './components/HomePage';
-import MoveNext from './components/MoveNext';
-function App() {
-  return (
-    <div className="App" >
-      <Head/>
-      <HomePage/>
 
-      <MoveNext/>
+import './App.css';
+
+
+import { NavBarContextProvider} from "./context/NavBarContext"
+import MainPage from './page/MainPage';
+
+function App() {
+  
+  return (
+
+    <NavBarContextProvider>
+    <div className="App" >
+      
+      <MainPage/>
     </div>
+    </NavBarContextProvider>
   );
 }
 
