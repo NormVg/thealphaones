@@ -1,0 +1,32 @@
+#intro-box{
+    height: 100vh;
+    padding: 5px;
+}
+
+#heading-intro{
+
+    /* border: 1px solid red; */
+    font-size: 45px;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    display: flex;
+
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    width: 40vw;
+    margin-left: 30px;
+    margin-top: 15px;
+    opacity: 80%;
+    /* color: rgb(199, 191, 191); */
+}
+
+#heading-intro img{
+    margin-top: 0%;
+    padding-top: 0%;
+    width: 40vw;
+    position: relative;
+    top: -30px;
+}
