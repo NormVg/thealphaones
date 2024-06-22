@@ -11,9 +11,11 @@ function IntroPage() {
         <div id='heading-intro'>
         Crafting Dreams, Defining Futures: 
         <div><img src={headingBottomBorder} alt="" /></div>
+        </div>
 
-        <div></div>
-
+        <div id='sub-head'>
+        Who we are?
+        <div id='heading-sub'><img src={subBarimg} alt="" /> Following’s Not Really My Style.</div>
         </div>
     </div>
   )
