@@ -5,6 +5,8 @@ import NavBar from "../components/NavBar";
 import HomePage from "./HomePage";
 
 import IntroPage from "./IntroPage";
+import AuraPage from "./AuraPage";
+import ProgPage from "./ProgPage";
 
 function MainPage() {
   const contextNavBar = useContext(NavBarContext);
@@ -13,8 +15,9 @@ function MainPage() {
     <>
       <Head />
       <HomePage />
-        <IntroPage/>
-      
+      <IntroPage />
+      <AuraPage />
+      <ProgPage />
       {contextNavBar.NavValue ? <NavBar /> : <></>}
     </>
   );

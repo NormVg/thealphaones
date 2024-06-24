@@ -21,3 +21,31 @@
     bottom: 0%;
     opacity: 90%;
 }
+
+
+
+#movenext-intro{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#movenext-intro img{
+    height: 60px;
+    opacity: 90%;
+}
+
+#movenext-prog{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#movenext-prog img{
+    height: 80px;
+    opacity: 90%;
+}

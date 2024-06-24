@@ -5,8 +5,8 @@ import "../css/MoveNextHomeStyle.css"
 
 function MoveNextIntro() {
   return (
-    <div  id="movenext" >
-      <a href="#intro-box">
+    <div  id="movenext-intro" >
+      <a href="#aura-box">
         <img src={flowintro} alt="" />
       </a>
     </div>

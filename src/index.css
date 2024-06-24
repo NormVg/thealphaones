@@ -129,3 +129,28 @@ code {
 .grey-text{
   color: #7F7F7F;
 }
+
+
+/*  THIS THE SCROLL-BARR */
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #919191;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: whitesmoke;
+}
+
+/* END OF SCHROLL BAR */

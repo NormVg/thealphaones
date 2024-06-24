@@ -22,13 +22,13 @@ function IntroPage() {
 
 
         <div id='intro-para'>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi repellat natus quibusdam aspernatur? Nisi, alias incidunt suscipit adipisci minima earum dolorum iusto in quia eaque voluptatum, praesentium vero exercitationem dolorem!
+        At TheAlphaOnes,  we are not just a tech company; we are a manifestation of innovation  and passion, fueled by a profound love for technology. Specializing in  software development, hardware solutions, and game development, we are  at the forefront of crafting the future.
         </div>
 
         <div id='intro-bt-box'>
-          <BtBox/>
-          <BtBox/>
-          <BtBox/>
+          <BtBox title="Vision" con="At TheAlphaOnes,  we are not just a tech company; we are a manifestation of innovation  and passion, fueled by a profound love for technology." />
+          <BtBox title="Mission" con="At TheAlphaOnes,  we are not just a tech company; we are a manifestation of innovation  and passion, fueled by a profound love for technology." />
+          <BtBox title="Values" con="At TheAlphaOnes,  we are not just a tech company; we are a manifestation of innovation  and passion, fueled by a profound love for technology." />
         </div>
 
         <MoveNextIntro/>
