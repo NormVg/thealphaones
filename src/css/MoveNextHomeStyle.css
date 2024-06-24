@@ -49,3 +49,18 @@
     height: 80px;
     opacity: 90%;
 }
+
+
+#movenext-team{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#movenext-team img{
+    height: 80px;
+    opacity: 90%;
+    margin-top: -35px;
+}

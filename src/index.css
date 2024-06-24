@@ -12,9 +12,20 @@ body {
   font-family: "K2D", sans-serif;
   font-weight: 400;
   font-style: normal;
+  user-select: none;
+  -webkit-user-drag: none;
+
+  
 }
 
+*{
+  scroll-behavior: smooth;
+}
 
+img{
+  user-select: none;
+  -webkit-user-drag: none;
+}
 
 
 code {
@@ -135,6 +146,7 @@ code {
 /* width */
 ::-webkit-scrollbar {
   width: 7px;
+  height: 7px;
 }
 
 /* Track */

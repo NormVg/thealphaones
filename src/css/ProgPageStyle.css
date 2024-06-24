@@ -1,4 +1,59 @@
 #prog-box{
-    margin-top: 10px;
-    height: 100vh;
+    padding-top: 10px;
+    /* height: 120vh;2 */
+}
+
+#prog-box-title{
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    opacity: 80%;
+    margin-left: 20px;
+}
+
+/* #aura-box-title-img{
+    
+} */
+
+#prog-box-title-img-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items:center;
+    position: relative;
+    top: -25px;
+    color: #8f8f8f;
+    gap: 5px;
+}
+
+#pojects-box{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#pojects-box-side{
+    height: 350px;
+    
+}
+
+#prog-box-inner{
+
+    height: 500px;
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: auto;
+    margin: 0px 20px;
+    /* border: 1px solid gold; */
+    margin-bottom: 10px;
+    
 }
