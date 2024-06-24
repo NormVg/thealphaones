@@ -6,8 +6,10 @@ import "../css/MoveNextHomeStyle.css"
 function MoveNextHome() {
   console.log("bhai MoveNextHome")
   return (
-    <div id="movenext" >
+    <div  id="movenext" >
+      <a href="#intro-box">
         <img src={flowHome} alt="" />
+      </a>
     </div>
   )
 }

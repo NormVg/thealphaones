@@ -1,6 +1,15 @@
 #movenext {
     display: flex;
     justify-content: center;
+
+}
+
+
+
+#movenext a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #movenext img{
