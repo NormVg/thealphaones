@@ -1,6 +1,6 @@
-#project-card{
-    width: 350px;
-    height: 210px;
+#journal-card{
+    width: 300px;
+    height: 180px;
     
     border-radius: 10px ;
     margin: 5px;
@@ -9,12 +9,12 @@
     overflow: hidden;
 }
 
-#project-card:hover{
+#journal-card:hover{
     border: 1px solid whitesmoke;
     color: rgba(255, 255, 255, 0.3);
 }
 
-#project-card img{
+#journal-card img{
     transition: all 350ms ease-in-out;
     width: 350px;
     height: 210px;
@@ -22,34 +22,41 @@
     opacity: 40%;
 }
 
-#project-card img:hover{
+#journal-card img:hover{
     opacity: 100%;
 }
-#prog-card-title{
+#journal-card-title{
     z-index: 10;
     height: 0%;
     position: relative;
-    top: 100px;
+    top:40px;
 
-    font-size: 35px;
-    font-family: "Italianno", cursive;
+    font-size: 30px;
+    font-family: "K2D", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin-left: 15px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
-#prog-card-con{
+#journal-card-content{
     z-index: 10;
     
     height: 0%;
     position: relative;
-    top: 140px;
+    top: 80px;
 
     font-family: "K2D", sans-serif;
     font-weight: 400;
-    /* font-style: italic; */
+    font-size: 15px;
     margin-left: 15px;
+    /* color: rgb(209, 209, 209); */
+
+
 }
-#prog-card-info:hover{
+#jorunal-card-info{
+    transition: all 400ms ease-in-out;
+    color: rgb(192, 192, 192);
+}
+#jorunal-card-info:hover{
     color: whitesmoke;
 }

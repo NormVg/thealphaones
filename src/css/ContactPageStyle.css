@@ -1,0 +1,32 @@
+#contact-box{
+    height: 100vh;
+}
+
+#contact-flow-bar-box-upper img{
+    width: 15vw;
+    
+    overflow: hidden;
+    /* border: 1px solid plum; */
+    
+}
+
+#contact-flow-bar-box{
+    /* border: 1px solid plum; */
+    /* position: relative; */
+     display: flex; 
+     flex-direction: column; 
+    /* justify-content: center; */
+    /* align-items: center; */
+    overflow: hidden;
+    height: 100%;
+    /* gap: 10px; */
+}
+
+#contact-flow-bar-box-upper{
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+    position: relative;
+    height: 100%;
+}

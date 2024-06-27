@@ -7,7 +7,7 @@ function MoveNextTeam() {
   
   return (
     <div  id="movenext-team" >
-      <a href="#team-box">
+      <a href="#journal-box">
         <img src={flowAura} alt="" />
       </a>
     </div>
