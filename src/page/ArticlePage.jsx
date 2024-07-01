@@ -1,9 +1,10 @@
 import React from 'react'
-import Head from '../components/Head'
+
+import "../css/ArticlePageStyle.css"
 
 function ArticlePage() {
   return (
-    <div>
+    <div id='article-box'>
       
     </div>
   )
