@@ -49,7 +49,7 @@ function JournalPage() {
 
         </div>
         <img id='jorunal-border-img' src={DownWave} alt="" />
-        <div id='journal-real-all'><a href=""> Read All </a></div>
+        <div id='journal-real-all'><a href="/blogs"> Read All </a></div>
       </div>
 
       <MoveNextContacts/>
