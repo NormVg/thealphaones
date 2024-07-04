@@ -1,3 +1,5 @@
+# Haaa bhai kesa ha
+
 It looks like you're using the `react-fast-marquee` library to create a scrolling effect on your `ContactPage`. However, if the `Marquee` component with the `direction="down"` is causing issues where the element is randomly being removed or not displaying correctly, you might need to look into alternative ways to achieve the desired effect or troubleshoot the `react-fast-marquee` implementation.
 
 ### Troubleshooting `react-fast-marquee`
@@ -15,6 +17,8 @@ If `react-fast-marquee` continues to cause problems, you can achieve a similar s
 #### CSS
 
 Add the following CSS to your `ContactPageStyle.css`:
+
+
 
 ```css
 #contact-box {
@@ -61,25 +65,25 @@ Add the following CSS to your `ContactPageStyle.css`:
 Update your `ContactPage` component:
 
 ```jsx
-import React from 'react';
+import React from "react";
 import FlowBar from "../assets/flow-bar-full.png";
 import "../css/ContactPageStyle.css";
 import subBarimg from "../assets/subBarCon.png";
 
 function ContactPage() {
   return (
-    <div id='contact-box'>
-      <div id='journal-box-head'>
-        <div id='journal-box-title'>Nexus</div>
-        <div id='journal-box-sub'>
-          <img id='journal-box-sub-img' src={subBarimg} alt="" />
-          <div id='journal-box-sub-head'>
+    <div id="contact-box">
+      <div id="journal-box-head">
+        <div id="journal-box-title">Nexus</div>
+        <div id="journal-box-sub">
+          <img id="journal-box-sub-img" src={subBarimg} alt="" />
+          <div id="journal-box-sub-head">
             Please no gang signs. No, throw it up. I'm kidding.
           </div>
         </div>
       </div>
 
-      <div id='cb-mid-bar'>
+      <div id="cb-mid-bar">
         <img src={FlowBar} alt="" />
       </div>
     </div>
@@ -92,7 +96,6 @@ export default ContactPage;
 ### Explanation
 
 - **CSS Animation**: The `@keyframes scrollDown` animation moves the `#cb-mid-bar` element from top to bottom continuously. You can adjust the `10s` duration to make the animation slower or faster.
-  
 - **Positioning**: The `#contact-box` has `overflow: hidden` to ensure that only the part of the `#cb-mid-bar` within its boundaries is visible, creating a scrolling effect.
 
 This approach avoids potential issues with third-party libraries and gives you more control over the scrolling effect.
